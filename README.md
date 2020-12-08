@@ -1,7 +1,7 @@
 # PythonTraining
 J'ai pu aborder au travers de différents projets les concepts suivants :
 
-__Jeu Devine Nombre :__
+**Jeu Devine Nombre :**
 - La librairie Numpy
 - La fonction random pour générer aléatoirement un nombre dans un intervalle
 - Les bases de print
@@ -23,4 +23,4 @@ __Jeu Devine Nombre :__
 - Import d'un excel avec Pandas dataframe 
 - Création d'un dictionnaire depuis le dataframe
 - Exploitation de ce dictionnaire en associant à chaque currency un rate
-- Création d'une fonction qui permet de renvoyer la valeur en USD depuis une autre currency. La fonction va chercher dans le dictionnaire la valeur (rate) corresppondant à la clé indiquée (currency)
+- Création d'une fonction qui permet de renvoyer la valeur en USD depuis une autre currency. La fonction va chercher dans le dictionnaire la valeur (rate) correspondant à la clé indiquée (currency)
