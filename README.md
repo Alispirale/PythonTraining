@@ -18,3 +18,9 @@ Jeu "rock paper scissors lizard spock" (un pierre feuille ciseaux amélioré) :
 - La librairie Pandas
 - Comment créer une fonction avec def return. Cette fonction m'a permis de renvoyer le gagnant en fonction de deux élements : le choix du player 1 (ordinateur) et le choix du player 2 (humain)
 - Comment exploiter un tableau excel dans un programme : j'ai inséré dans ce tableau tous les outcomes possibles d'une manche du jeu. Ainsi, chaque combinaison renvoyant à un outcome, j'ai pu le lier à la fonction créée.
+
+Exercie Rate Exchange :
+- Import d'un excel avec Pandas dataframe 
+- Création d'un dictionnaire depuis le dataframe
+- Exploitation de ce dictionnaire en associant à chaque currency un rate
+- Création d'une fonction qui permet de renvoyer la valeur en USD depuis une autre currency. La fonction va chercher dans le dictionnaire la valeur (rate) corresppondant à la clé indiquée (currency)
