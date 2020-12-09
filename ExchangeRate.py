@@ -12,5 +12,15 @@ y = input("Currency to convert from ")
 while y not in dict_rate :
     y=input("Choose a valid currency ")
 
-result=convert(float(x),y)
-print(str(x)+str(y)+"is "+str(result)+"USD")
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
+
+while not is_number(x):
+    x = input("Please enter a valid number ")
+
+result=round(convert(float(x),y),2)
+print(f"{x} {y} is {result} USD")

@@ -24,3 +24,4 @@ J'ai pu aborder au travers de différents projets les concepts suivants :
 - Création d'un dictionnaire depuis le dataframe
 - Exploitation de ce dictionnaire en associant à chaque currency un rate
 - Création d'une fonction qui permet de renvoyer la valeur en USD depuis une autre currency. La fonction va chercher dans le dictionnaire la valeur (rate) correspondant à la clé indiquée (currency)
+- Utilisation de la fonction try except pour vérifier que l'utilisateur entre bien un nombre valide
